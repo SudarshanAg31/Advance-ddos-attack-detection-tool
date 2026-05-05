@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_307e84d54609b33aa3eb9ec5e9ef8258 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_307e84d54609b33aa3eb9ec5e9ef8258" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_307e84d54609b33aa3eb9ec5e9ef8258 = L.map(
+                "map_307e84d54609b33aa3eb9ec5e9ef8258",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d6e19c234db7a6a240e0055b11082e15 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d6e19c234db7a6a240e0055b11082e15.addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var marker_02cb2adce86eec238ecc2050f68aa54c = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_0c4076f32a48275f1cc996a4b032abdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5c955cd283a977fa1d6071f6c01b5d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62a138712f90ae8c350da361d666183a = $(`<div id="html_62a138712f90ae8c350da361d666183a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #35</b><br>                 IP: 192.168.179.233<br>                 Location: Attacker, Unknown<br>                 Rate: 38 pps             </div>             </div>`)[0];
+                popup_c5c955cd283a977fa1d6071f6c01b5d5.setContent(html_62a138712f90ae8c350da361d666183a);
+            
+        
+
+        marker_02cb2adce86eec238ecc2050f68aa54c.bindPopup(popup_c5c955cd283a977fa1d6071f6c01b5d5)
+        ;
+
+        
+    
+    
+                marker_02cb2adce86eec238ecc2050f68aa54c.setIcon(icon_0c4076f32a48275f1cc996a4b032abdf);
+            
+    
+            var marker_33d191ff0342d6a83b0d4fae3911aaff = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_78d3d5e31d803164910e3d78c435e444 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1056272e0e1c102895f7865f5a552496 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8c404a5c5c95959bcc7236424bba9eb = $(`<div id="html_f8c404a5c5c95959bcc7236424bba9eb" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #34</b><br>                 IP: 192.168.89.102<br>                 Location: Attacker, Unknown<br>                 Rate: 44 pps             </div>             </div>`)[0];
+                popup_1056272e0e1c102895f7865f5a552496.setContent(html_f8c404a5c5c95959bcc7236424bba9eb);
+            
+        
+
+        marker_33d191ff0342d6a83b0d4fae3911aaff.bindPopup(popup_1056272e0e1c102895f7865f5a552496)
+        ;
+
+        
+    
+    
+                marker_33d191ff0342d6a83b0d4fae3911aaff.setIcon(icon_78d3d5e31d803164910e3d78c435e444);
+            
+    
+            var marker_20452b06618debcc659a3d5dadc08f0c = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_c3ed6644e2b36cd3d898b26984342c41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fcd8a45eaddb4614e097b6aa75bed8c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af7e21df3c15e592ee1557ba088c1295 = $(`<div id="html_af7e21df3c15e592ee1557ba088c1295" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #33</b><br>                 IP: 192.168.13.180<br>                 Location: Attacker, Unknown<br>                 Rate: 54 pps             </div>             </div>`)[0];
+                popup_fcd8a45eaddb4614e097b6aa75bed8c0.setContent(html_af7e21df3c15e592ee1557ba088c1295);
+            
+        
+
+        marker_20452b06618debcc659a3d5dadc08f0c.bindPopup(popup_fcd8a45eaddb4614e097b6aa75bed8c0)
+        ;
+
+        
+    
+    
+                marker_20452b06618debcc659a3d5dadc08f0c.setIcon(icon_c3ed6644e2b36cd3d898b26984342c41);
+            
+    
+            var marker_f424d663b010327f68e68be179617cdd = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_0fad901fc72ad107b132002bcdd95318 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a461b088fe0b58ceeae3c0e1b71c8d70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab4142ff9454538b09ba82c62df8ac9a = $(`<div id="html_ab4142ff9454538b09ba82c62df8ac9a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #32</b><br>                 IP: 192.168.75.109<br>                 Location: Attacker, Unknown<br>                 Rate: 51 pps             </div>             </div>`)[0];
+                popup_a461b088fe0b58ceeae3c0e1b71c8d70.setContent(html_ab4142ff9454538b09ba82c62df8ac9a);
+            
+        
+
+        marker_f424d663b010327f68e68be179617cdd.bindPopup(popup_a461b088fe0b58ceeae3c0e1b71c8d70)
+        ;
+
+        
+    
+    
+                marker_f424d663b010327f68e68be179617cdd.setIcon(icon_0fad901fc72ad107b132002bcdd95318);
+            
+    
+            var marker_79baf958f0866a50d26be75e846a2592 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_14cb61e0459e6a65d32155059384fbc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18cfb13680806a1a902344536b594d5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7c6ac1506e7b0293c069cfab62a8747 = $(`<div id="html_d7c6ac1506e7b0293c069cfab62a8747" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #31</b><br>                 IP: 192.168.93.93<br>                 Location: Attacker, Unknown<br>                 Rate: 34 pps             </div>             </div>`)[0];
+                popup_18cfb13680806a1a902344536b594d5f.setContent(html_d7c6ac1506e7b0293c069cfab62a8747);
+            
+        
+
+        marker_79baf958f0866a50d26be75e846a2592.bindPopup(popup_18cfb13680806a1a902344536b594d5f)
+        ;
+
+        
+    
+    
+                marker_79baf958f0866a50d26be75e846a2592.setIcon(icon_14cb61e0459e6a65d32155059384fbc8);
+            
+    
+            var marker_74fd48d89983ce6f5d72393ecd5e3eb7 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_9157f1a7c620ee05f9c0ee482cf4e3fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b94de2f6c733865ad6d9a95d6fe8afc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cd4527400cdcd81730cb15f2941285b = $(`<div id="html_0cd4527400cdcd81730cb15f2941285b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #30</b><br>                 IP: 192.168.179.228<br>                 Location: Attacker, Unknown<br>                 Rate: 30 pps             </div>             </div>`)[0];
+                popup_9b94de2f6c733865ad6d9a95d6fe8afc.setContent(html_0cd4527400cdcd81730cb15f2941285b);
+            
+        
+
+        marker_74fd48d89983ce6f5d72393ecd5e3eb7.bindPopup(popup_9b94de2f6c733865ad6d9a95d6fe8afc)
+        ;
+
+        
+    
+    
+                marker_74fd48d89983ce6f5d72393ecd5e3eb7.setIcon(icon_9157f1a7c620ee05f9c0ee482cf4e3fb);
+            
+    
+            var marker_776325123c07934d807d900b22d48ea9 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_82851ce7116d00342c10852809a7f0c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a2926172e8eb72beac9191377592830 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3000c799335aa14ed4b6685f499a2d5 = $(`<div id="html_a3000c799335aa14ed4b6685f499a2d5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #29</b><br>                 IP: 192.168.248.225<br>                 Location: Attacker, Unknown<br>                 Rate: 31 pps             </div>             </div>`)[0];
+                popup_2a2926172e8eb72beac9191377592830.setContent(html_a3000c799335aa14ed4b6685f499a2d5);
+            
+        
+
+        marker_776325123c07934d807d900b22d48ea9.bindPopup(popup_2a2926172e8eb72beac9191377592830)
+        ;
+
+        
+    
+    
+                marker_776325123c07934d807d900b22d48ea9.setIcon(icon_82851ce7116d00342c10852809a7f0c3);
+            
+    
+            var marker_d41dfd8b79c62d7443de15535391109a = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_d5b6c7b045ce17bc64bdc3c0383871f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_200fa0ae900bc81246bb6a9ce6eb7d6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_688ca9decc81f3853e2cd266580654ac = $(`<div id="html_688ca9decc81f3853e2cd266580654ac" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #28</b><br>                 IP: 192.168.254.11<br>                 Location: Attacker, Unknown<br>                 Rate: 32 pps             </div>             </div>`)[0];
+                popup_200fa0ae900bc81246bb6a9ce6eb7d6b.setContent(html_688ca9decc81f3853e2cd266580654ac);
+            
+        
+
+        marker_d41dfd8b79c62d7443de15535391109a.bindPopup(popup_200fa0ae900bc81246bb6a9ce6eb7d6b)
+        ;
+
+        
+    
+    
+                marker_d41dfd8b79c62d7443de15535391109a.setIcon(icon_d5b6c7b045ce17bc64bdc3c0383871f9);
+            
+    
+            var marker_276155d16645e0c9bd6a36e3be6fc02f = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_8dfc33f02eae97262efe17b86d011310 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7363bbd6009475eaffe342d7f0d7cf58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0449a53be68a5bc1a464488a495f9618 = $(`<div id="html_0449a53be68a5bc1a464488a495f9618" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #27</b><br>                 IP: 192.168.211.156<br>                 Location: Attacker, Unknown<br>                 Rate: 30 pps             </div>             </div>`)[0];
+                popup_7363bbd6009475eaffe342d7f0d7cf58.setContent(html_0449a53be68a5bc1a464488a495f9618);
+            
+        
+
+        marker_276155d16645e0c9bd6a36e3be6fc02f.bindPopup(popup_7363bbd6009475eaffe342d7f0d7cf58)
+        ;
+
+        
+    
+    
+                marker_276155d16645e0c9bd6a36e3be6fc02f.setIcon(icon_8dfc33f02eae97262efe17b86d011310);
+            
+    
+            var marker_cd38d2fc537b25626cfda201cb101770 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_f9d8eb057c50be484f3cfb87104ffec0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a47dbdadc32657eb9214a92994f24fc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d309b3d5db661e60560605a7b5fe615 = $(`<div id="html_0d309b3d5db661e60560605a7b5fe615" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #26</b><br>                 IP: 192.168.94.44<br>                 Location: Attacker, Unknown<br>                 Rate: 45 pps             </div>             </div>`)[0];
+                popup_a47dbdadc32657eb9214a92994f24fc2.setContent(html_0d309b3d5db661e60560605a7b5fe615);
+            
+        
+
+        marker_cd38d2fc537b25626cfda201cb101770.bindPopup(popup_a47dbdadc32657eb9214a92994f24fc2)
+        ;
+
+        
+    
+    
+                marker_cd38d2fc537b25626cfda201cb101770.setIcon(icon_f9d8eb057c50be484f3cfb87104ffec0);
+            
+    
+            var marker_906d85a3041cc285bba379605ee02fd5 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_387cf5b095e37e16189e3c1c7341818f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51e7e871a48259a573702da3df5c6958 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b61f08586786eb41fdfcdc9ea8f1c6a1 = $(`<div id="html_b61f08586786eb41fdfcdc9ea8f1c6a1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #25</b><br>                 IP: 192.168.127.40<br>                 Location: Attacker, Unknown<br>                 Rate: 37 pps             </div>             </div>`)[0];
+                popup_51e7e871a48259a573702da3df5c6958.setContent(html_b61f08586786eb41fdfcdc9ea8f1c6a1);
+            
+        
+
+        marker_906d85a3041cc285bba379605ee02fd5.bindPopup(popup_51e7e871a48259a573702da3df5c6958)
+        ;
+
+        
+    
+    
+                marker_906d85a3041cc285bba379605ee02fd5.setIcon(icon_387cf5b095e37e16189e3c1c7341818f);
+            
+    
+            var marker_ef9ba9932b023e586c6e36be2274b217 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_414206391bbb4c3af506efc5cef0122e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1868a18814f55570e3cb3307ff59b68c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc6259ecb5bf4fe83f91e677e5c7ef96 = $(`<div id="html_dc6259ecb5bf4fe83f91e677e5c7ef96" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #24</b><br>                 IP: 192.168.131.169<br>                 Location: Attacker, Unknown<br>                 Rate: 34 pps             </div>             </div>`)[0];
+                popup_1868a18814f55570e3cb3307ff59b68c.setContent(html_dc6259ecb5bf4fe83f91e677e5c7ef96);
+            
+        
+
+        marker_ef9ba9932b023e586c6e36be2274b217.bindPopup(popup_1868a18814f55570e3cb3307ff59b68c)
+        ;
+
+        
+    
+    
+                marker_ef9ba9932b023e586c6e36be2274b217.setIcon(icon_414206391bbb4c3af506efc5cef0122e);
+            
+    
+            var marker_c409cf4a0605ea5529a236364f7d068f = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_d0ace6723f5ad9d71c29427fe6cfbc43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf7bc5e6e92a9aeffe1a6981ac426b73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d41592f2705dc3ab208cb46eed20ff6 = $(`<div id="html_4d41592f2705dc3ab208cb46eed20ff6" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #23</b><br>                 IP: 192.168.74.31<br>                 Location: Attacker, Unknown<br>                 Rate: 44 pps             </div>             </div>`)[0];
+                popup_cf7bc5e6e92a9aeffe1a6981ac426b73.setContent(html_4d41592f2705dc3ab208cb46eed20ff6);
+            
+        
+
+        marker_c409cf4a0605ea5529a236364f7d068f.bindPopup(popup_cf7bc5e6e92a9aeffe1a6981ac426b73)
+        ;
+
+        
+    
+    
+                marker_c409cf4a0605ea5529a236364f7d068f.setIcon(icon_d0ace6723f5ad9d71c29427fe6cfbc43);
+            
+    
+            var marker_75e80c868016aeffe1c0b5d488d977ec = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_496dae88da7f9c144b2384261e2132a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6ca745de7f9f526f8cdd759edb04551 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b02da3536e5a49facc20649d7879bbb0 = $(`<div id="html_b02da3536e5a49facc20649d7879bbb0" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #22</b><br>                 IP: 192.168.250.34<br>                 Location: Attacker, Unknown<br>                 Rate: 32 pps             </div>             </div>`)[0];
+                popup_e6ca745de7f9f526f8cdd759edb04551.setContent(html_b02da3536e5a49facc20649d7879bbb0);
+            
+        
+
+        marker_75e80c868016aeffe1c0b5d488d977ec.bindPopup(popup_e6ca745de7f9f526f8cdd759edb04551)
+        ;
+
+        
+    
+    
+                marker_75e80c868016aeffe1c0b5d488d977ec.setIcon(icon_496dae88da7f9c144b2384261e2132a2);
+            
+    
+            var marker_ec70853d5d28ac6bcf204bb9def95e1b = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_d862ac38034998032568faddbd7b5824 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aae7bcf3a18c5228e951a5edbc73d1bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66517cf5c79e96a5d08a83edf309eb78 = $(`<div id="html_66517cf5c79e96a5d08a83edf309eb78" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #21</b><br>                 IP: 192.168.107.165<br>                 Location: Attacker, Unknown<br>                 Rate: 37 pps             </div>             </div>`)[0];
+                popup_aae7bcf3a18c5228e951a5edbc73d1bf.setContent(html_66517cf5c79e96a5d08a83edf309eb78);
+            
+        
+
+        marker_ec70853d5d28ac6bcf204bb9def95e1b.bindPopup(popup_aae7bcf3a18c5228e951a5edbc73d1bf)
+        ;
+
+        
+    
+    
+                marker_ec70853d5d28ac6bcf204bb9def95e1b.setIcon(icon_d862ac38034998032568faddbd7b5824);
+            
+    
+            var marker_f64db1e28d7333d7dbd51df551ea1050 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_dce282d0e2c1046a4c048cd3292aaa09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8ff59dd2cb4bba33ef5a31143d9318b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6be9d1198810e61ec9ef6593d2fce0e2 = $(`<div id="html_6be9d1198810e61ec9ef6593d2fce0e2" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #20</b><br>                 IP: 192.168.155.213<br>                 Location: Attacker, Unknown<br>                 Rate: 104 pps             </div>             </div>`)[0];
+                popup_a8ff59dd2cb4bba33ef5a31143d9318b.setContent(html_6be9d1198810e61ec9ef6593d2fce0e2);
+            
+        
+
+        marker_f64db1e28d7333d7dbd51df551ea1050.bindPopup(popup_a8ff59dd2cb4bba33ef5a31143d9318b)
+        ;
+
+        
+    
+    
+                marker_f64db1e28d7333d7dbd51df551ea1050.setIcon(icon_dce282d0e2c1046a4c048cd3292aaa09);
+            
+    
+            var marker_7ea7b1de151afa71e58ba9db4482d9ea = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_ca348237d2b6458f0a722d5465214222 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b4a539f31921dc106c5c9352a3c5d83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4637abfc4e9727d432871f19d15ca0e = $(`<div id="html_f4637abfc4e9727d432871f19d15ca0e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #19</b><br>                 IP: 192.168.85.134<br>                 Location: Attacker, Unknown<br>                 Rate: 76 pps             </div>             </div>`)[0];
+                popup_8b4a539f31921dc106c5c9352a3c5d83.setContent(html_f4637abfc4e9727d432871f19d15ca0e);
+            
+        
+
+        marker_7ea7b1de151afa71e58ba9db4482d9ea.bindPopup(popup_8b4a539f31921dc106c5c9352a3c5d83)
+        ;
+
+        
+    
+    
+                marker_7ea7b1de151afa71e58ba9db4482d9ea.setIcon(icon_ca348237d2b6458f0a722d5465214222);
+            
+    
+            var marker_7ef60f00a418b8121966a8002ecbc1bd = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_b77968d57c5171443b2b273224bc4056 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e00379f7438233e811558a6c76b39a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2d2474b36626ac1fc790858b95080b2 = $(`<div id="html_c2d2474b36626ac1fc790858b95080b2" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #18</b><br>                 IP: 192.168.208.37<br>                 Location: Attacker, Unknown<br>                 Rate: 87 pps             </div>             </div>`)[0];
+                popup_8e00379f7438233e811558a6c76b39a5.setContent(html_c2d2474b36626ac1fc790858b95080b2);
+            
+        
+
+        marker_7ef60f00a418b8121966a8002ecbc1bd.bindPopup(popup_8e00379f7438233e811558a6c76b39a5)
+        ;
+
+        
+    
+    
+                marker_7ef60f00a418b8121966a8002ecbc1bd.setIcon(icon_b77968d57c5171443b2b273224bc4056);
+            
+    
+            var marker_f56f2570b219d41cafe0bef367138fbd = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_be543dcdfc58393d068922fdfdc68052 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eec9db349909d616ff0138a41a104dd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7bfd87963ce05f9ed7a70f9838e14f9 = $(`<div id="html_b7bfd87963ce05f9ed7a70f9838e14f9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #17</b><br>                 IP: 192.168.26.99<br>                 Location: Attacker, Unknown<br>                 Rate: 110 pps             </div>             </div>`)[0];
+                popup_eec9db349909d616ff0138a41a104dd7.setContent(html_b7bfd87963ce05f9ed7a70f9838e14f9);
+            
+        
+
+        marker_f56f2570b219d41cafe0bef367138fbd.bindPopup(popup_eec9db349909d616ff0138a41a104dd7)
+        ;
+
+        
+    
+    
+                marker_f56f2570b219d41cafe0bef367138fbd.setIcon(icon_be543dcdfc58393d068922fdfdc68052);
+            
+    
+            var marker_9e095242e77cc653a777d2a948c91665 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_150f51bafeac48ede92633b300c650b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_73a7621d8062da57db503f10715d78e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52b67bb5a35fec80c052d76ad4da318e = $(`<div id="html_52b67bb5a35fec80c052d76ad4da318e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #16</b><br>                 IP: 192.168.1.250<br>                 Location: Attacker, Unknown<br>                 Rate: 58 pps             </div>             </div>`)[0];
+                popup_73a7621d8062da57db503f10715d78e8.setContent(html_52b67bb5a35fec80c052d76ad4da318e);
+            
+        
+
+        marker_9e095242e77cc653a777d2a948c91665.bindPopup(popup_73a7621d8062da57db503f10715d78e8)
+        ;
+
+        
+    
+    
+                marker_9e095242e77cc653a777d2a948c91665.setIcon(icon_150f51bafeac48ede92633b300c650b8);
+            
+    
+            var marker_2fe1b488582c9e545982147d24cf9a6d = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_663828009033394536c274db8caa02dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_532e2342327586bacf6ef82244a450fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46112e37f4bb6331647c56029c98c9ec = $(`<div id="html_46112e37f4bb6331647c56029c98c9ec" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #15</b><br>                 IP: 192.168.135.174<br>                 Location: Attacker, Unknown<br>                 Rate: 86 pps             </div>             </div>`)[0];
+                popup_532e2342327586bacf6ef82244a450fc.setContent(html_46112e37f4bb6331647c56029c98c9ec);
+            
+        
+
+        marker_2fe1b488582c9e545982147d24cf9a6d.bindPopup(popup_532e2342327586bacf6ef82244a450fc)
+        ;
+
+        
+    
+    
+                marker_2fe1b488582c9e545982147d24cf9a6d.setIcon(icon_663828009033394536c274db8caa02dd);
+            
+    
+            var marker_721b2925b7ff0538f45c989fb223ce13 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_cdc9c1c08cbe3c03b7628864d7ac5caa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b9b58d4ab62b6b145ceb73670fd6063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b601d41f46e32d6eba9b5eaf26c87ad4 = $(`<div id="html_b601d41f46e32d6eba9b5eaf26c87ad4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #14</b><br>                 IP: 192.168.187.166<br>                 Location: Attacker, Unknown<br>                 Rate: 98 pps             </div>             </div>`)[0];
+                popup_7b9b58d4ab62b6b145ceb73670fd6063.setContent(html_b601d41f46e32d6eba9b5eaf26c87ad4);
+            
+        
+
+        marker_721b2925b7ff0538f45c989fb223ce13.bindPopup(popup_7b9b58d4ab62b6b145ceb73670fd6063)
+        ;
+
+        
+    
+    
+                marker_721b2925b7ff0538f45c989fb223ce13.setIcon(icon_cdc9c1c08cbe3c03b7628864d7ac5caa);
+            
+    
+            var marker_247c0e394ea8d66e359e24dfa6525f0f = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_7391e3fbc77ed452b4c209e10a175924 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2137852a0c974935f6ec2eb8db0a8b13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_814b76f1fe946bd4ff3a9b5c3df306b7 = $(`<div id="html_814b76f1fe946bd4ff3a9b5c3df306b7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #13</b><br>                 IP: 192.168.182.105<br>                 Location: Attacker, Unknown<br>                 Rate: 72 pps             </div>             </div>`)[0];
+                popup_2137852a0c974935f6ec2eb8db0a8b13.setContent(html_814b76f1fe946bd4ff3a9b5c3df306b7);
+            
+        
+
+        marker_247c0e394ea8d66e359e24dfa6525f0f.bindPopup(popup_2137852a0c974935f6ec2eb8db0a8b13)
+        ;
+
+        
+    
+    
+                marker_247c0e394ea8d66e359e24dfa6525f0f.setIcon(icon_7391e3fbc77ed452b4c209e10a175924);
+            
+    
+            var marker_dedec4f68cc67d2181c37d92c6385f12 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_849e1bf25019995e42c1a79a92d58e9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56556934825b8521b88acd232488ebf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bd4574076acc6bc3c298e4e644d83f9 = $(`<div id="html_9bd4574076acc6bc3c298e4e644d83f9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #12</b><br>                 IP: 192.168.120.112<br>                 Location: Attacker, Unknown<br>                 Rate: 98 pps             </div>             </div>`)[0];
+                popup_56556934825b8521b88acd232488ebf6.setContent(html_9bd4574076acc6bc3c298e4e644d83f9);
+            
+        
+
+        marker_dedec4f68cc67d2181c37d92c6385f12.bindPopup(popup_56556934825b8521b88acd232488ebf6)
+        ;
+
+        
+    
+    
+                marker_dedec4f68cc67d2181c37d92c6385f12.setIcon(icon_849e1bf25019995e42c1a79a92d58e9a);
+            
+    
+            var marker_ff73fc7c5e113fc088f99152aae053aa = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_eb09b44f262c4a15fdbfa2ba7b1fb4ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5bd23ab481c9290c07d5ed97fe637a18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91d16ecf31e32856f90bc8837e368ed2 = $(`<div id="html_91d16ecf31e32856f90bc8837e368ed2" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #11</b><br>                 IP: 192.168.122.239<br>                 Location: Attacker, Unknown<br>                 Rate: 31 pps             </div>             </div>`)[0];
+                popup_5bd23ab481c9290c07d5ed97fe637a18.setContent(html_91d16ecf31e32856f90bc8837e368ed2);
+            
+        
+
+        marker_ff73fc7c5e113fc088f99152aae053aa.bindPopup(popup_5bd23ab481c9290c07d5ed97fe637a18)
+        ;
+
+        
+    
+    
+                marker_ff73fc7c5e113fc088f99152aae053aa.setIcon(icon_eb09b44f262c4a15fdbfa2ba7b1fb4ff);
+            
+    
+            var marker_11632424fdb363f0617fe3590cae7156 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_e00b9cd9aa1ef86e794c34bd4d8f2f18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd65ac3c0833551c937e2a04ad290529 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_878b9b900b59a8aa40213461e6df5b64 = $(`<div id="html_878b9b900b59a8aa40213461e6df5b64" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #10</b><br>                 IP: 192.168.156.41<br>                 Location: Attacker, Unknown<br>                 Rate: 76 pps             </div>             </div>`)[0];
+                popup_dd65ac3c0833551c937e2a04ad290529.setContent(html_878b9b900b59a8aa40213461e6df5b64);
+            
+        
+
+        marker_11632424fdb363f0617fe3590cae7156.bindPopup(popup_dd65ac3c0833551c937e2a04ad290529)
+        ;
+
+        
+    
+    
+                marker_11632424fdb363f0617fe3590cae7156.setIcon(icon_e00b9cd9aa1ef86e794c34bd4d8f2f18);
+            
+    
+            var marker_546523a37376b7b3a6aa7237662088d8 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_e8abe4f8e43fb63b94226b10823c3fa8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8de00336eb325ee434ed7d99c289a01e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3209fdd3daf72cf56044ad60c2bfa69 = $(`<div id="html_a3209fdd3daf72cf56044ad60c2bfa69" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #9</b><br>                 IP: 192.168.63.72<br>                 Location: Attacker, Unknown<br>                 Rate: 67 pps             </div>             </div>`)[0];
+                popup_8de00336eb325ee434ed7d99c289a01e.setContent(html_a3209fdd3daf72cf56044ad60c2bfa69);
+            
+        
+
+        marker_546523a37376b7b3a6aa7237662088d8.bindPopup(popup_8de00336eb325ee434ed7d99c289a01e)
+        ;
+
+        
+    
+    
+                marker_546523a37376b7b3a6aa7237662088d8.setIcon(icon_e8abe4f8e43fb63b94226b10823c3fa8);
+            
+    
+            var marker_f90600a268ffea93fec2db2b14029133 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_d1f4d74b86e12b75674e7f9111221295 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7ca3ffd93b304b436debd1784ca528c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b9062e47fb8aaad244176df057f2709 = $(`<div id="html_7b9062e47fb8aaad244176df057f2709" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #8</b><br>                 IP: 192.168.39.242<br>                 Location: Attacker, Unknown<br>                 Rate: 86 pps             </div>             </div>`)[0];
+                popup_e7ca3ffd93b304b436debd1784ca528c.setContent(html_7b9062e47fb8aaad244176df057f2709);
+            
+        
+
+        marker_f90600a268ffea93fec2db2b14029133.bindPopup(popup_e7ca3ffd93b304b436debd1784ca528c)
+        ;
+
+        
+    
+    
+                marker_f90600a268ffea93fec2db2b14029133.setIcon(icon_d1f4d74b86e12b75674e7f9111221295);
+            
+    
+            var marker_d597b1d237258779a7f0c4fab2772322 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_97bfb74345ffed5a2c6fef0976a89e5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3e9de0eabf14a8b9b94393559031220 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9be2bdc5e9e820a2c3266e7a61972431 = $(`<div id="html_9be2bdc5e9e820a2c3266e7a61972431" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #7</b><br>                 IP: 192.168.99.168<br>                 Location: Attacker, Unknown<br>                 Rate: 99 pps             </div>             </div>`)[0];
+                popup_b3e9de0eabf14a8b9b94393559031220.setContent(html_9be2bdc5e9e820a2c3266e7a61972431);
+            
+        
+
+        marker_d597b1d237258779a7f0c4fab2772322.bindPopup(popup_b3e9de0eabf14a8b9b94393559031220)
+        ;
+
+        
+    
+    
+                marker_d597b1d237258779a7f0c4fab2772322.setIcon(icon_97bfb74345ffed5a2c6fef0976a89e5b);
+            
+    
+            var marker_2e16336aa972e17ca3e83ad89cac9623 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_307e84d54609b33aa3eb9ec5e9ef8258);
+        
+    
+            var icon_8a6ff93e5c16e3ecfb2c01ffe8af0424 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ddb65f442add135c44ed1be6dab96fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a2e0f8cfe6647f23a072f0f9ef6390c = $(`<div id="html_6a2e0f8cfe6647f23a072f0f9ef6390c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: monospace;">                 <b>🚨 ATTACK #6</b><br>                 IP: 192.168.19.38<br>                 Location: Attacker, Unknown<br>                 Rate: 105 pps             </div>             </div>`)[0];
+                popup_1ddb65f442add135c44ed1be6dab96fa.setContent(html_6a2e0f8cfe6647f23a072f0f9ef6390c);
+            
+        
+
+        marker_2e16336aa972e17ca3e83ad89cac9623.bindPopup(popup_1ddb65f442add135c44ed1be6dab96fa)
+        ;
+
+        
+    
+    
+                marker_2e16336aa972e17ca3e83ad89cac9623.setIcon(icon_8a6ff93e5c16e3ecfb2c01ffe8af0424);
+            
+</script>
+</html>
